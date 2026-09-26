@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AMEERA</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #fff8f3;
+    color: #333;
+}
+
+header {
+    background: #8b3d2e;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 42px;
+    margin: 0;
+}
+
+header p {
+    margin-top: 8px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 30px 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #8b3d2e;
+}
+
+.produk {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px #0002;
+}
+
+.card .gambar {
+    font-size: 55px;
+}
+
+.harga {
+    color: #8b3d2e;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn {
+    display: inline-block;
+    background: #25d366;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+
+footer {
+    background: #8b3d2e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>AMEERA</h1>
+    <p>Frozen Food & Makanan Pilihan</p>
+</header>
+
+<div class="container">
+
+<h2>Produk Kami</h2>
+
+<div class="produk">
+
+    <div class="card">
+        <div class="gambar">🍗</div>
+        <h3>Nugget Ayam</h3>
+        <p class="harga">Rp25.000</p>
+        <a class="btn"
+        href="https://wa.me/6283808304008?text=Halo%20AMEERA,%20saya%20mau%20pesan%20Nugget%20Ayam">
+        Pesan
+        </a>
+    </div>
+
+    <div class="card">
+        <div class="gambar">🥟</div>
+        <h3>Dimsum</h3>
+        <p class="harga">Rp20.000</p>
+        <a class="btn"
+        href="https://wa.me/6283808304008?text=Halo%20AMEERA,%20saya%20mau%20pesan%20Dimsum">
+        Pesan
+        </a>
+    </div>
+
+    <div class="card">
+        <div class="gambar">🍟</div>
+        <h3>Kentang Frozen</h3>
+        <p class="harga">Rp18.000</p>
+        <a class="btn"
+        href="https://wa.me/6283808304008?text=Halo%20AMEERA,%20saya%20mau%20pesan%20Kentang%20Frozen">
+        Pesan
+        </a>
+    </div>
+
+    <div class="card">
+        <div class="gambar">🌭</div>
+        <h3>Sosis</h3>
+        <p class="harga">Rp22.000</p>
+        <a class="btn"
+        href="https://wa.me/6283808304008?text=Halo%20AMEERA,%20saya%20mau%20pesan%20Sosis">
+        Pesan
+        </a>
+    </div>
+
+</div>
+
+<br>
+
+<div class="card">
+    <h2>Pesan Sekarang</h2>
+    <p>Silakan hubungi AMEERA melalui WhatsApp.</p>
+
+    <a class="btn"
+    href="https://wa.me/6283808304008?text=Halo%20AMEERA,%20saya%20ingin%20memesan%20produk">
+    💬 Chat WhatsApp
+    </a>
+</div>
+
+</div>
+
+<footer>
+    <strong>AMEERA</strong><br>
+    WhatsApp: 0838-0830-4008
+</footer>
+
+</body>
+</html>
